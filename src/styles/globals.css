@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-grad {
+    @apply  bg-orange-600 text-white;
+}
+
+.bg-stripe {
+    background: #0c0c0c repeating-linear-gradient(
+            to bottom,
+            transparent 7px,
+            rgba(0, 0, 0, 0.8) 9px,
+            rgba(0, 0, 0, 0.8) 13px,
+            transparent 13px
+    );
+}
+
+.mermaid svg{
+    margin: 0 auto!important;
+}
